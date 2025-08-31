@@ -30,4 +30,15 @@ A página é composta pelas seguintes seções:
 ## 💻 Tecnologias Utilizadas
 
 - **HTML5** → Estrutura da página.  
-- **CSS3** → Estilização e layout responsivo.  
+- **CSS3** → Estilização e layout responsivo.
+
+- ---
+
+- ## 📄 Créditos
+
+Este projeto foi desenvolvido apenas para fins acadêmicos e de estudo.  
+
+Créditos de imagens:  
+- [People Vectors by Vecteezy](https://www.vecteezy.com/free-vector/people)  
+- [Academia ícones criados por Freepik - Flaticon](https://www.flaticon.com/br/icones-gratis/academia)
+
