@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Contato - Personal Trainer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Formulário de Contato</h2>
+      <form id="contato-form">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <button id="btn-form" type="submit">Enviar</button>
+      </form>
+
+      <p
+        id="mensagem-sucesso"
+        style="display: none; color: green; font-weight: bold; margin-top: 16px"
+      >
+        ✅ Sua mensagem foi enviada com sucesso!
+      </p>
+
+      <a href="index.html" class="back-link">⬅ Voltar à página inicial</a>
+    </div>
+  </body>
+    <script>
+        const form = document.getElementById("contato-form");
+        const msgSucesso = document.getElementById("mensagem-sucesso");
+
+        form.addEventListener("submit", function (event) {
+            event.preventDefault(); 
+            msgSucesso.style.display = "block";
+            form.reset();
+        });
+    </script>
+  </body>
+</html>
